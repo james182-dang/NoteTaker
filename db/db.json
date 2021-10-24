@@ -1,8 +1,12 @@
 {
-    "notes": [
-        {
-            "id": "0",
-            "name": "TestNote"
-        }
-    ]
+  "notes": [
+    {
+      "id": "0",
+      "name": "TestNote"
+    },
+    {
+      "id": "1",
+      "name": "PostTest"
+    }
+  ]
 }

@@ -1,3 +1,4 @@
+const fs = require('fs');
 const express = require('express');
 const router = require('express').Router();
 const path = require('path');
@@ -8,6 +9,10 @@ const { notes } = require('./db/db.json');
 function createNewNote(body, notes) {
     const note = body;
     notes.push(note);
+    fs.writeFileSync(
+        path.join(__dirname, './db/db.json'),
+        JSON.stringify({ notes: notes }, null, 2)
+    );
 
     return note;
 }
