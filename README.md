@@ -1,5 +1,8 @@
 # Note Taker
 
+Check it out on Heroku: https://enigmatic-reaches-58040.herokuapp.com/
+
+
 Note Taker is a very simple note taking app utilizing express to set up API/HTML routes.
 
 Click Get Started to go to your notes page, where you can save notes.
